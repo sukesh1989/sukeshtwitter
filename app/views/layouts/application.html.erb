@@ -28,9 +28,11 @@
 </ul> </nav>
 
 </header>
- <section class="round">
-<%= yield %> 
-</section>
+<section class="round">
+<% flash.each do |key, value| %> <div class="flash <%= key %>"><%= value %></div>
+<% end %>
+<%= yield %> </section>
+
 <footer> 
 	<nav class="round">
 <ul>
