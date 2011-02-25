@@ -85,3 +85,8 @@ a.signup_button { margin-left: auto; margin-right: auto; display: block; text-al
 		}
 		#error_explanation ul li { font-size: 12px; list-style: square;
 		}
+		ul.users {
+		margin-top: 1em;
+		} .users li {
+		list-style: none;
+		}
